@@ -91,7 +91,7 @@ end
   end
   
   def over?
-    (won?) || (full?)
+    (won?) || (draw?)
   end
   
 def winner
@@ -114,7 +114,6 @@ def play
     puts "Cat's Game!"
   end
 end
-
 end
 
 
